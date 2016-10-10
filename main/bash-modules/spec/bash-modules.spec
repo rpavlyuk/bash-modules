@@ -22,10 +22,10 @@ Optional modules to use with bash, like logging, argument parsing, etc.
 # Nothing to do
 
 # Execute tests
-(
-  cd test
-  exec /bin/bash ./test.sh -q
-)
+#(
+#  cd test
+#  exec /bin/bash ./test.sh -q
+#)
 
 %install
 install -D src/import.sh "$RPM_BUILD_ROOT%_bindir/import.sh"
